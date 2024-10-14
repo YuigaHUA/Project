@@ -17,7 +17,7 @@ router.post('/register', (req, res) => {
 
     // 添加新用户到数据库
     users.push({ username, password });
-    res.send('注册成功');
+    res.send('注册成功'); 
 });
 
 // 用户登录
