@@ -6,6 +6,9 @@ This is a simple online shopping system that allows users to browse products, ad
 - View cart summary
 - Checkout with PayPal integration
 - Admin panel for product and order management
+- User Accounts: Users can register and log in to their accounts.
+Registration: Users can create an account by providing a username and password.
+Login: Users can log in with their credentials to access personalized features.
 ## Installation
 
 1. Clone the repository:
@@ -30,7 +33,10 @@ This is a simple online shopping system that allows users to browse products, ad
 
 5. Open your browser and navigate to `http://localhost:3000`
 ## Usage
-
+- Register and Login
+- Open the application in your browser.
+- Register a new user using the registration form.
+- Log in using the login form to access personalized features.
 - To browse products: Visit the homepage and explore available products.
 - To add products to the cart: Click "Add to Cart" on the desired product.
 - To view the cart: Click on the cart icon at the top.
