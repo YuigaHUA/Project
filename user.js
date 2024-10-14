@@ -5,7 +5,7 @@ const router = express.Router();
 // 模拟的用户数据库
 const users = [];
 
-// 用户注册
+// 用户注册 
 router.post('/register', (req, res) => {
     const { username, password } = req.body;
     
