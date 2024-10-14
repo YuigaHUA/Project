@@ -8,6 +8,7 @@ app.use(express.static('public'));
 
 // Routing to checkout
 app.use('/checkout', require('./routes/checkout'));
+app.use('/user', require('./routes/user')); 
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
