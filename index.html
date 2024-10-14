@@ -7,6 +7,39 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- 用户注册表单 -->
+  <h2>注册</h2>
+  <form id="registerForm">
+    <input type="text" id="registerUsername" placeholder="用户名" required>
+    <input type="password" id="registerPassword" placeholder="密码" required>
+    <button type="submit">注册</button>
+  </form>
+
+  <!-- 用户登录表单 -->
+  <h2>登录</h2>
+  <form id="loginForm">
+    <input type="text" id="loginUsername" placeholder="用户名" required>
+    <input type="password" id="loginPassword" placeholder="密码" required>
+    <button type="submit">登录</button>
+  </form>
+
+  <div class="products">
+    <div class="product" data-id="1">
+      <h2>Product 1</h2>
+      <p>$10</p>
+      <button onclick="addToCart(1, 'Product 1', 10)">Add to Cart</button>
+    </div>
+    <div class="product" data-id="2">
+      <h2>Product 2</h2>
+      <p>$15</p>
+      <button onclick="addToCart(2, 'Product 2', 15)">Add to Cart</button>
+    </div>
+  </div>
+
+  <h3>Your Cart</h3>
+  <ul id="cart"></ul>
+  <p>Total: $<span id="total">0</span></p>
+  <button onclick="checkout()">Checkout</button>
   <h1>Welcome to Simple Online Shopping System</h1>
   <div class="products">
     <div class="product" data-id="1">
